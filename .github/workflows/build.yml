@@ -99,9 +99,7 @@ jobs:
         - uses: actions/checkout@v3
           name: Checkout
         - uses: goto-bus-stop/setup-zig@v2
-          name: Zig downloading
-          with:
-            version: master
+          name: Zig Setup
         - name: Install dependences
           run: |
               sudo apt update
